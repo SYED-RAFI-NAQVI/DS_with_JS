@@ -1,0 +1,23 @@
+{
+  "name": "DS_with_JS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "linearSearch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SYED-RAFI-NAQVI/DS_with_JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SYED-RAFI-NAQVI/DS_with_JS/issues"
+  },
+  "homepage": "https://github.com/SYED-RAFI-NAQVI/DS_with_JS#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
