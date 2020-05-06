@@ -43,11 +43,12 @@ function bubbleSort(arr){
   return arr
 }
 
-let arrSize = prompt('input array size')
+let arrSize = prompt('input array size: ')
 let arr = []
+let result = []
 
 for(i = 0; i < arrSize; i++){
-  a = prompt('input into array')
+  a = prompt('input into array: ')
   arr.push(a)
 }
 
@@ -55,3 +56,10 @@ arr = arr.map(Number)
 arrCopy = arr.map(Number)
 
 bubbleSort(arr)
+
+for(i=0; i<arr.length; i++){
+  result.push(arrCopy.indexOf(arr[i]))
+}
+console.log('Original: ', arrCopy)
+console.log('Sorted:   ', arr)
+console.log('Result:   ', result)
